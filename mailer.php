@@ -26,9 +26,7 @@
         $content .= "Subject: $subject\n\n";
         $content .= "Email: $email\n\n";
         $content .= "Phone: $phone\n\n";
-        $content .= "Budget: $budget\n\n";
         $content .= "Message:\n$message\n";
-        $content .= "File: <a href='$file' target='_blank'>$file</a>";
 
         # email headers.
         $headers = "From: $name <$email>";
