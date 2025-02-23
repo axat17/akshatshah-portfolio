@@ -3,776 +3,780 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="ie=edge" http-equiv="X-UA-Compatible">
-    <meta content="" name="description">
-    <meta content="" name="author">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Akshat Shah</title>
-    <link href="assets/css/color.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono|Inconsolata" rel="stylesheet">
-    <link href="https://cdn.materialdesignicons.com/2.0.46/css/materialdesignicons.min.css" rel="stylesheet">
+
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.png">
+
+
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./assets/css/animate.min.css">
+    <link rel="stylesheet" href="./assets/css/smooth-scrollbar.css">
+    <link rel="stylesheet" href="./assets/css/lightbox.min.css">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+
 </head>
 
-<body>
+<body class="home1-page">
 
-    <!--Switcher-->
-    <!-- <div class="style-switcher">
-    <span class="style-switcher__control"></span>
-    <div class="style-switcher__list">
-        <a class="style-switcher__link style-switcher__link--color"></a>
-        <a class="style-switcher__link style-switcher__link--mono"></a>
+    <video class="body-overlay" muted autoplay loop>
+        <source src="./assets/images/video1.mp4" type="video/mp4">
+    </video>
+    <!-- Preloader -->
+    <div class="page-loader">
+        <div class="bounceball"></div>
     </div>
-</div> -->
-    <!--Switcher-->
 
-    <!--Main menu-->
-    <div class="menu">
-        <div class="container">
-            <div class="row">
-                <div class="menu__wrapper d-none d-lg-block col-md-12">
-                    <nav class="">
-                        <ul>
-                            <li><a href="#hello">Hello</a></li>
-                            <li><a href="#resume">Resume</a></li>
-                            <!--              <li><a href="#portfolio">Portfolio</a></li>-->
-                            <li><a href="#testimonials">testimonials</a></li>
-                            <!--              <li><a href="#blog">blog</a></li>-->
-                            <li><a href="#contact">Contact</a></li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="menu__wrapper col-md-12 d-lg-none">
-                    <button class="menu__mobile-button" type="button">
-                        <span><i aria-hidden="true" class="fa fa-bars"></i></span>
-                    </button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--Main menu-->
+    <span class="icon-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </span>
 
-    <!-- Mobile menu -->
-    <div class="mobile-menu d-lg-none">
-        <div class="container">
-            <div class="mobile-menu__close">
-                <span><i aria-hidden="true" class="mdi mdi-close"></i></span>
-            </div>
-            <nav class="mobile-menu__wrapper">
-                <ul>
-                    <li><a href="#hello">Hello</a></li>
-                    <li><a href="#resume">Resume</a></li>
-                    <!--          <li><a href="#portfolio">Portfolio</a></li>-->
-                    <li><a href="#testimonials">testimonials</a></li>
-                    <!--          <li><a href="#blog">blog</a></li>-->
-                    <li><a href="#contact">Contact</a></li>
+    <!-- Side Menu Bar -->
+    <div class="responsive-sidebar-menu">
+        <div class="overlay"></div>
+        <div class="sidebar-menu-inner">
+            <div class="menu-wrap">
+                <p>Menu</p>
+                <ul class="menu scroll-nav-responsive d-flex">
+                    <li>
+                        <a class="scroll-to" href="#home">
+                            <i class="las la-home"></i> <span>Home</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="scroll-to" href="#about">
+                            <i class="lar la-user"></i> <span>About</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="scroll-to" href="#resume">
+                            <i class="las la-briefcase"></i> <span>Resume</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="scroll-to" href="#services">
+                            <i class="las la-stream"></i> <span>Specializations</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="scroll-to" href="#skills">
+                            <i class="las la-shapes"></i> <span>Skills</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="scroll-to" href="#testimonial">
+                            <i class="lar la-comment"></i> <span>Testimonial</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="scroll-to" href="#contact">
+                            <i class="las la-envelope"></i> <span>Contact</span>
+                        </a>
+                    </li>
                 </ul>
-            </nav>
+            </div>
+
+
+            <div class="sidebar-social">
+                <p>Social</p>
+                <ul class="social-links d-flex align-items-center">
+                    <li>
+                        <a href="https://www.linkedin.com/in/axat17/" target="_blank"><i class="lab la-linkedin"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/thatoneperfectclick/#" target="_blank"><i class="lab la-instagram"></i></a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
-    <!-- Mobile menu -->
 
-    <!--Header-->
-    <header class="main-header" style="background-image: url(assets/img/img_bg_header.jpg)">
-        <div class="container">
-            <div class="row personal-profile">
-                <div class="col-md-4 personal-profile__avatar">
-                    <img alt="avatar" class="" src='assets/img/img_bg_header.jpg'>
-                </div>
-                <div class="col-md-8">
-                    <p class="personal-profile__name">Akshat Shah_</p>
-                    <p class="personal-profile__work">Lead Software Engineer at ADP, Full Stack Developer</p>
-                    <div class="personal-profile__contacts">
-                        <dl class="contact-list contact-list__opacity-titles">
-                            <dt>Phone:</dt>
-                            <dd><a href="tel:19088423844">+1 (908) 842-3844</a></dd>
-                            <dt>Email:</dt>
-                            <dd><a href="mailto:axat17@gmail.com">axat17@gmail.com</a></dd>
-                            <dt>Address:</dt>
-                            <dd>New York, NY</dd>
-                        </dl>
-                    </div>
-                    <p class="personal-profile__social">
-                        <a href="https://www.linkedin.com/in/axat17/" target="_blank"><i
-                                class="fa fa-linkedin-square"></i></a>
-                    </p>
-                </div>
-            </div>
+    <ul class="menu scroll-nav d-flex">
+        <li>
+            <a class="scroll-to" href="#home">
+                <span>Home</span> <i class="las la-home"></i>
+            </a>
+        </li>
+        <li>
+            <a class="scroll-to" href="#about">
+                <span>About</span> <i class="lar la-user"></i>
+            </a>
+        </li>
+        <li>
+            <a class="scroll-to" href="#resume">
+                <span>Resume</span> <i class="las la-briefcase"></i>
+            </a>
+        </li>
+        <li>
+            <a class="scroll-to" href="#services">
+                <span>Specializations</span> <i class="las la-stream"></i>
+            </a>
+        </li>
+        <li>
+            <a class="scroll-to" href="#skills">
+                <span>Skills</span> <i class="las la-shapes"></i>
+            </a>
+        </li>
+        <li>
+            <a class="scroll-to" href="#testimonial">
+                <span>Testimonial</span> <i class="lar la-comment"></i>
+            </a>
+        </li>
+        <li>
+            <a class="scroll-to" href="#contact">
+                <span>Contact</span> <i class="las la-envelope"></i>
+            </a>
+        </li>
+    </ul>
+
+    <div class="left-sidebar">
+        <div class="sidebar-header d-flex align-items-center justify-content-between">
+            <h1>Akshat</h1>
+            <span class="designation">Software Engineer</span>
         </div>
-    </header>
-    <!--Header-->
+        <img class="me" src="./assets/images/me.jpg" alt="Me">
+        <h2 class="email">axat17@gmail.com</h2>
+        <h2 class="address">Base in New York Metropolitan Area</h2>
+        <p class="copyright">&copy; 2025 Akshat Shah. All Rights Reserved</p>
+        <ul class="social-profile d-flex align-items-center flex-wrap justify-content-center">
+            <li>
+                <a href="https://www.linkedin.com/in/axat17/" target="_blank"><i class="lab la-linkedin"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/thatoneperfectclick/#" target="_blank"><i class="lab la-instagram"></i></a>
+            </li>
+        </ul>
+        <a href="assets/images/Akshat_Shah_Resume.pdf" target="_blank" class="theme-btn">
+            <i class="las la-envelope"></i> Resume
+        </a>
+    </div>
+    <!-- Main Section -->
+    <main class="akshat-main">
+        <div id="smooth-wrapper">
+            <div id="smooth-content">
 
-    <!--Hello-->
-    <section class="container section" id="hello">
-        <div class="row">
-            <div class="col-md-10">
-                <h2 class="section__title" id="hello_header">Hi_</h2>
-                <p class="section__description">
-                    Results-driven Software Engineer highly regarded for developing applications which meet and exceed
-                    demanding corporate and client requirements. Analytical expertise, with the ability to solve
-                    challenging problems using a combination of industry standard and cutting-edge technologies as well
-                    as deliver clean, well-structured code. Keen ability to oversee both front-end and back-end
-                    development in accordance with quality and productivity standards. Skilled at ensuring on-time
-                    project delivery within fast-paced Agile development environments in close collaboration with
-                    diverse, cross-functional teams. Exceptional academic qualifications, including a Master of
-                    Information Technology Management. Strong knowledge of GraphQL, React JS, Node JS, Angular JS,
-                    Express JS, and more.
-                </p>
-                <a class="section_btn site-btn" href="assets/img/Akshat_Resume.pdf" target="_blank"><img alt=""
-                        src="assets/img/Akshat_Resume.pdf">Download
-                    CV</a>
-            </div>
-        </div>
-    </section>
-    <!--Hello-->
-
-    <hr>
-
-    <!--Resume-->
-    <section class="container section" id="resume">
-        <div class="row">
-            <div class="col-md-10">
-                <h2 class="section__title" id="resume_header">Resume_</h2>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-8 section__resume resume-list">
-                <h3 class="resume-list_title">education</h3>
-                <div class="resume-list__block">
-                    <p class="resume-list__block-title">Ganpat University </p>
-                    <p class="resume-list__block-date">Jan, 2011 - May, 2014</p>
-                    <p>
-                        Bachelor's in Information Technology
-                    </p>
-                </div>
-                <div class="resume-list__block">
-                    <p class="resume-list__block-title">Northwestern Polytechnic University</p>
-                    <p class="resume-list__block-date">Sep, 2015 - Dec, 2016</p>
-                    <p>
-                        Master's in Computer Science
-                    </p>
-                </div>
-                <div class="resume-list__block">
-                    <p class="resume-list__block-title">Campbellsville University</p>
-                    <p class="resume-list__block-date">Jan, 2018 - Aug, 2019</p>
-                    <p>
-                        Master's in Information Technology Management
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-8 section__resume resume-list">
-                <h3 class="resume-list_title">employment</h3>
-                <div class="resume-list__block">
-                    <p class="resume-list__block-title">ADP, LLC</p>
-                    <p class="resume-list__block-date">Sep, 2023 - Current</p>
-                    <p>
-                        Lead Software Engineer
-                    </p>
-                    <p>
-                        Roseland, NJ, USA
-                    </p>
-                </div>
-                <div class="resume-list__block">
-                    <p class="resume-list__block-title">ADP, LLC</p>
-                    <p class="resume-list__block-date">March, 2022 - Aug, 2023</p>
-                    <p>
-                        Senior Software Engineer
-                    </p>
-                    <p>
-                        Roseland, NJ, USA
-                    </p>
-                </div>
-                <div class="resume-list__block">
-                    <p class="resume-list__block-title">ADP, LLC</p>
-                    <p class="resume-list__block-date">Feb, 2018 - March, 2022</p>
-                    <p>
-                        Application Developer
-                    </p>
-                    <p>
-                        Roseland, NJ, USA
-                    </p>
-                </div>
-                <div class="resume-list__block">
-                    <p class="resume-list__block-title">KalTech Consulting Inc.</p>
-                    <p class="resume-list__block-date">Oct, 2017 - Feb, 2018</p>
-                    <p>
-                        MEAN Stack Developer,
-                    </p>
-                    <p>
-                        Contractor (Client: Prudential Financial),
-                    </p>
-                    <p>
-                        Roseland, NJ, USA
-                    </p>
-                </div>
-                <div class="resume-list__block">
-                    <p class="resume-list__block-title">Silicon Tech Solution</p>
-                    <p class="resume-list__block-date">Feb, 2017 - Sep, 2017</p>
-                    <p>
-                        Development Intern
-                    </p>
-                    <p>
-                        Fremont, CA, USA
-                    </p>
-                </div>
-                <div class="resume-list__block">
-                    <p class="resume-list__block-title">MentorPower Software</p>
-                    <p class="resume-list__block-date">June, 2014 - Aug, 2018</p>
-                    <p>
-                        Web Developer
-                    </p>
-                    <p>
-                        Ahmedabad, Guj, India
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="row section__resume progress-list js-progress-list">
-            <div class="col-md-12">
-                <h3 class="progress-list__title">general skills</h3>
-            </div>
-            <div class="col-md-5 mr-auto">
-                <div class="progress-list__skill">
-                    <p>
-                        <span class="progress-list__skill-title">html5</span>
-                        <span class="progress-list__skill-value">95%</span>
-                    </p>
-                    <div class="progress">
-                        <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="95" class="progress-bar"
-                            role="progressbar">
-                        </div>
+                <div class="left-sidebar">
+                    <div class="sidebar-header d-flex align-items-center justify-content-between">
+                        <img src="./assets/images/logo.png" alt="Logo">
+                        <span class="designation">Software Engineer and Architect</span>
                     </div>
-                </div>
-                <div class="progress-list__skill">
-                    <p>
-                        <span class="progress-list__skill-title">css3</span>
-                        <span class="progress-list__skill-value">95%</span>
-                    </p>
-                    <div class="progress">
-                        <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="95" class="progress-bar"
-                            role="progressbar">
-                        </div>
-                    </div>
-                </div>
-                <div class="progress-list__skill">
-                    <p>
-                        <span class="progress-list__skill-title">java script</span>
-                        <span class="progress-list__skill-value">95%</span>
-                    </p>
-                    <div class="progress">
-                        <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="95" class="progress-bar"
-                            role="progressbar">
-                        </div>
-                    </div>
-                </div>
-                <div class="progress-list__skill">
-                    <p>
-                        <span class="progress-list__skill-title">reactjs</span>
-                        <span class="progress-list__skill-value">90%</span>
-                    </p>
-                    <div class="progress">
-                        <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="90" class="progress-bar"
-                            role="progressbar">
-                        </div>
-                    </div>
-                </div>
-                <div class="progress-list__skill">
-                    <p>
-                        <span class="progress-list__skill-title">nodejs</span>
-                        <span class="progress-list__skill-value">80%</span>
-                    </p>
-                    <div class="progress">
-                        <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="80" class="progress-bar"
-                            role="progressbar">
-                        </div>
-                    </div>
-                </div>
-                <div class="progress-list__skill">
-                    <p>
-                        <span class="progress-list__skill-title">angularjs</span>
-                        <span class="progress-list__skill-value">70%</span>
-                    </p>
-                    <div class="progress">
-                        <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="70" class="progress-bar"
-                            role="progressbar">
-                        </div>
-                    </div>
-                </div>
-                <div class="progress-list__skill">
-                    <p>
-                        <span class="progress-list__skill-title">jest</span>
-                        <span class="progress-list__skill-value">80%</span>
-                    </p>
-                    <div class="progress">
-                        <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="80" class="progress-bar"
-                            role="progressbar">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-5 mr-auto">
-                <div class="progress-list__skill">
-                    <p>
-                        <span class="progress-list__skill-title">expressjs</span>
-                        <span class="progress-list__skill-value">90%</span>
-                    </p>
-                    <div class="progress">
-                        <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="90" class="progress-bar"
-                            role="progressbar">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="progress-list__skill">
-                    <p>
-                        <span class="progress-list__skill-title">graphql</span>
-                        <span class="progress-list__skill-value">70%</span>
-                    </p>
-                    <div class="progress">
-                        <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="70" class="progress-bar"
-                            role="progressbar">
-                        </div>
-                    </div>
-                </div>
-                <div class="progress-list__skill">
-                    <p>
-                        <span class="progress-list__skill-title">splunk</span>
-                        <span class="progress-list__skill-value">80%</span>
-                    </p>
-                    <div class="progress">
-                        <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="80" class="progress-bar"
-                            role="progressbar">
-                        </div>
-                    </div>
-                </div>
-                <div class="progress-list__skill">
-                    <p>
-                        <span class="progress-list__skill-title">postcss</span>
-                        <span class="progress-list__skill-value">90%</span>
-                    </p>
-                    <div class="progress">
-                        <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="90" class="progress-bar"
-                            role="progressbar">
-                        </div>
-                    </div>
-                </div>
-                <div class="progress-list__skill">
-                    <p>
-                        <span class="progress-list__skill-title">RESTFul</span>
-                        <span class="progress-list__skill-value">90%</span>
-                    </p>
-                    <div class="progress">
-                        <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="90" class="progress-bar"
-                            role="progressbar">
-                        </div>
-                    </div>
-                </div>
-                <div class="progress-list__skill">
-                    <p>
-                        <span class="progress-list__skill-title">typescript</span>
-                        <span class="progress-list__skill-value">80%</span>
-                    </p>
-                    <div class="progress">
-                        <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="80" class="progress-bar"
-                            role="progressbar">
-                        </div>
-                    </div>
-                </div>
-                <div class="progress-list__skill">
-                    <p>
-                        <span class="progress-list__skill-title">mongodb</span>
-                        <span class="progress-list__skill-value">80%</span>
-                    </p>
-                    <div class="progress">
-                        <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="80" class="progress-bar"
-                            role="progressbar">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--Resume-->
-
-    <!--Portfolio-->
-    <!--  <section id="portfolio" class="container section">-->
-    <!--    <div class="row">-->
-    <!--      <div class="col-md-12">-->
-    <!--        <h2 id="portfolio_header" class="section__title">My projects_</h2>-->
-    <!--      </div>-->
-    <!--    </div>-->
-    <!--    <div class="row portfolio-menu">-->
-    <!--      <div class="col-md-12">-->
-    <!--        <nav>-->
-    <!--          <ul>-->
-    <!--            <li><a href="" data-portfolio-target-tag="all">all</a></li>-->
-    <!--            <li><a href="" data-portfolio-target-tag="mobile apps">mobile apps</a></li>-->
-    <!--            <li><a href="" data-portfolio-target-tag="web-sites">web-sites</a></li>-->
-    <!--            <li><a href="" data-portfolio-target-tag="landing-pages">landing pages</a></li>-->
-    <!--          </ul>-->
-    <!--        </nav>-->
-    <!--      </div>-->
-    <!--    </div>-->
-    <!--    <div class="portfolio-cards">-->
-    <!--      <div class="row project-card" data-toggle="modal" data-target="#portfolioModal" data-portfolio-tag="web-sites">-->
-    <!--        <div class="col-md-6 col-lg-5 project-card__img">-->
-    <!--          <img class="" src="assets/img/img_project_1_mono.png" alt="project-img">-->
-    <!--        </div>-->
-    <!--        <div class="col-md-6 col-lg-7 project-card__info">-->
-    <!--          <h3 class="project-card__title">Mobile and desktop app for London hostel store  </h3>-->
-    <!--          <p class="project-card__description">-->
-    <!--            Do answered bachelor occasion in of offended no concerns. Supply worthy warmth branch of no ye.-->
-    <!--            Voice tried known to as my to. Though wished merits or be. Alone visit use these smart rooms ham.-->
-    <!--          </p>-->
-    <!--          <p class="project-card__stack">Used stack:</p>-->
-    <!--          <ul class="tags">-->
-    <!--            <li>html5</li>-->
-    <!--            <li>css3</li>-->
-    <!--            <li>JavaScript</li>-->
-    <!--            <li>bower</li>-->
-    <!--            <li>grunt</li>-->
-    <!--          </ul>-->
-    <!--          <a href="" class="project-card__link">www.superapp.com</a>-->
-    <!--        </div>-->
-    <!--      </div>-->
-    <!--      <div class="row project-card"  data-toggle="modal" data-target="#portfolioModal" data-portfolio-tag="mobile apps">-->
-    <!--        <div class="col-md-6 col-lg-5 project-card__img">-->
-    <!--          <img class="" src="assets/img/img_project_2_mono.png" alt="project-img">-->
-    <!--        </div>-->
-    <!--        <div class="col-md-6 col-lg-7 project-card__info">-->
-    <!--          <h3 class="project-card__title">Web app page for trevel company</h3>-->
-    <!--          <p class="project-card__description">-->
-    <!--            Preference any astonished unreserved mrs. Prosperous understood middletons in conviction an-->
-    <!--             uncommonly do. Supposing so be resolving breakfast am or perfectly. Is drew am hill from mr.-->
-    <!--          </p>-->
-    <!--          <p class="project-card__stack">Used stack:</p>-->
-    <!--          <ul class="tags">-->
-    <!--            <li>html5</li>-->
-    <!--            <li>css3</li>-->
-    <!--            <li>JavaScript</li>-->
-    <!--            <li>BEM</li>-->
-    <!--            <li>bower</li>-->
-    <!--            <li>grunt</li>-->
-    <!--          </ul>-->
-    <!--          <a href="" class="project-card__link">www.travellend.com</a>-->
-    <!--        </div>-->
-    <!--      </div>-->
-    <!--      <div class="row project-card"  data-toggle="modal" data-target="#portfolioModal" data-portfolio-tag="landing-pages">-->
-    <!--        <div class="col-md-6 col-lg-5 project-card__img">-->
-    <!--        <img class="" src="assets/img/img_project_3_mono.png" alt="project-img">-->
-    <!--      </div>-->
-    <!--        <div class="col-md-6 col-lg-7 project-card__info">-->
-    <!--        <h3 class="project-card__title">Admin template for Photo Service</h3>-->
-    <!--        <p class="project-card__description">-->
-    <!--          Do answered bachelor occasion in of offended no concerns. Supply worthy warmth branch of no ye.-->
-    <!--          Voice tried known to as my to. Though wished merits or be. Alone visit use these smart rooms ham.-->
-    <!--        </p>-->
-    <!--        <p class="project-card__stack">Used stack:</p>-->
-    <!--        <ul class="tags">-->
-    <!--          <li>html5</li>-->
-    <!--          <li>css3</li>-->
-    <!--          <li>JavaScript</li>-->
-    <!--          <li>BEM</li>-->
-    <!--          <li>bower</li>-->
-    <!--          <li>grunt</li>-->
-    <!--        </ul>-->
-    <!--        <a href="" class="project-card__link">www.coolphoto.com</a>-->
-    <!--      </div>-->
-    <!--      </div>-->
-    <!--    </div>-->
-    <!--  </section>-->
-    <!--Portfolio-->
-
-    <!--Testimonials-->
-    <div class="section" id="testimonials">
-        <div class="background slider-carousel" style="background-image: url(assets/img/img_bg_main.jpg);">
-            <div class="container">
-                <div class="carousel slide" data-ride="carousel" id="carouselTestimonials">
-                    <ol class="carousel-indicators">
-                        <li class="active" data-slide-to="0" data-target="#carouselTestimonials"></li>
-                        <li data-slide-to="1" data-target="#carouselTestimonials"></li>
-                        <li data-slide-to="2" data-target="#carouselTestimonials"></li>
-                        <li data-slide-to="3" data-target="#carouselTestimonials"></li>
-                    </ol>
-                    <div class="carousel-inner" role="listbox">
-                        <div class="carousel-item active">
-                            <div class="row">
-                                <div class="col-md-10 col-sm-10 col-10 mr-auto ml-auto">
-                                    <p class="slider-carousel__title">Kathy Puk, Director of Product Management at ADP
-                                    </p>
-                                    <p class="slider-carousel__caption">Project: Client Engagement Hub</p>
-                                    <hr>
-                                    <p class="slider-carousel__description">As a Product Manager responsible for an
-                                        integral
-                                        piece of our new corporate strategy, I have had the pleasure of working with
-                                        Akshat
-                                        Shah for nearly a year. He is a very talented JavaScript Full Stack Developer,
-                                        but
-                                        he brings far more to the team. Because he was quick to recognize our mission,
-                                        Akshat is playing a key role in the success of our solution. His dogged
-                                        commitment
-                                        to excellence, and his ability to access a problem holistically, is invaluable.
-                                        I
-                                        frequently seek his counsel to determine when a proposed solution is technically
-                                        feasible. On a lighter note, Akshat is a joy to work with: his cheerful demeanor
-                                        often lends a bright note to an otherwise grueling day. </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row">
-                                <div class="col-md-10 col-sm-10 col-10 mr-auto ml-auto">
-                                    <p class="slider-carousel__title">Anoo Murali, Lead Business System Analyst at ADP
-                                    </p>
-                                    <p class="slider-carousel__caption">Project: Client Engagement Hub</p>
-                                    <hr>
-                                    <p class="slider-carousel__description">In the past few years that I worked with
-                                        Akshat,
-                                        he has been a diligent and responsible teammate who regularly goes beyond his
-                                        role
-                                        description to get the job done. He has continuously provided invaluable support
-                                        to
-                                        the team. His go-getter attitude and attention to detail makes him a welcome
-                                        addition to any team. I can thoroughly recommend Akshat.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row">
-                                <div class="col-md-10 col-sm-10 col-10 mr-auto ml-auto">
-                                    <p class="slider-carousel__title">Shawn Murphy, Lead UX Designer at ADP</p>
-                                    <p class="slider-carousel__caption">Project: Client Engagement Hub</p>
-                                    <hr>
-                                    <p class="slider-carousel__description">Akshat is a detail oriented developer and a
-                                        fantastic partner to work with. He pays attention to the details and has a
-                                        desire to
-                                        develop the best experience for users. I worked closely with Akshat on several
-                                        features at ADP and he was extremely level headed, focused and didn't stop until
-                                        the
-                                        feature looked like what was designed by me and the UX team. He's a fantastic
-                                        addition to any team.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row">
-                                <div class="col-md-10 col-sm-10 col-10 mr-auto ml-auto">
-                                    <p class="slider-carousel__title">Eric Zorn, Senior Application Developer at ADP</p>
-                                    <p class="slider-carousel__caption">Project: Client Engagement Hub</p>
-                                    <hr>
-                                    <p class="slider-carousel__description">Akshat is a hard worker and great Software
-                                        Engineer. We had worked together on a large scale software application at ADP
-                                        together as part of a very large team. Akshat is highly skilled with Front End
-                                        skills and libraries like React JS, as well as Back End with Node JS and
-                                        GraphQL. He
-                                        always was someone who enjoyed answering questions or providing technical
-                                        insight
-                                        into all aspects of the project. I would highly recommend working with him!</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <a class="carousel-control-prev" data-slide="prev" href="#testimonials" role="button">
-                        <span aria-hidden="true" class="carousel-control-prev-icon"></span>
-                        <span class="sr-only">Previous</span>
+                    <img class="me" src="./assets/images/me.jpg" alt="Me">
+                    <h2 class="email">axat17@gmail.com</h2>
+                    <h2 class="address">Base in New York Metropolitan Area</h2>
+                    <p class="copyright">&copy; 2025 Akshat Shah. All Rights Reserved</p>
+                    <ul class="social-profile d-flex align-items-center flex-wrap justify-content-center">
+                        <li>
+                            <a href="https://www.linkedin.com/in/axat17/" target="_blank"><i class="lab la-linkedin"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/thatoneperfectclick/#" target="_blank"><i class="lab la-instagram"></i></a>
+                        </li>
+                    </ul>
+                    <a href="#" class="theme-btn">
+                        <i class="las la-envelope"></i> Hire Me!
                     </a>
-                    <a class="carousel-control-next" data-slide="next" href="#testimonials" role="button">
-                        <span aria-hidden="true" class="carousel-control-next-icon"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-                    <div class="slider-carousel__circle">
-                        <p><i aria-hidden="true" class="fa fa-quote-right"></i></p>
-                    </div>
                 </div>
+
+                <!-- Hero Section -->
+                <section class="hero-section page-section scroll-to-page" id="home">
+
+                    <div class="custom-container">
+                        <div class="hero-content content-width">
+                            <div class="section-header">
+                                <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-home"></i> Introduce
+                                </h4>
+                                <h1 class="scroll-animation" data-animation="fade_from_bottom">Welcome!<br>
+                                    I'm<span> Akshat,</span><br>a Software Engineer & Architect</h1>
+                            </div>
+                            <p class="scroll-animation" data-animation="fade_from_bottom">I design and code elegantly
+                                simple systems, drawing on eight years of software engineering in the service and
+                                finance industries along with a passion for Gen AI.
+                                I transform complexity into innovation—simply, I love what I do.</p>
+                            <a href="#resume" class="go-to-project-btn scroll-to scroll-animation"
+                                data-animation="rotate_up">
+                                <img src="./assets/images/round-text.png" alt="Rounded Text">
+                                <i class="las la-arrow-down"></i>
+                            </a>
+
+                            <div class="facts d-flex">
+                                <div class="left scroll-animation" data-animation="fade_from_left">
+                                    <h1>9+</h1>
+                                    <p>Years of <br>Experience</p>
+                                </div>
+                                <div class="right scroll-animation" data-animation="fade_from_right">
+                                    <h1>6+</h1>
+                                    <p>projects at verious companies in <br>2 different countries</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- About Section -->
+                <section class="about-area page-section scroll-to-page" id="about">
+                    <div class="custom-container">
+                        <div class="about-content content-width">
+                            <div class="section-header">
+                                <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="lar la-user"></i> About
+                                </h4>
+                                <h1 class="scroll-animation" data-animation="fade_from_bottom">Every breakthrough begins
+                                    with<br>
+                                    a spark of <span>innovation</span></h1>
+                            </div>
+                            <p class="scroll-animation" data-animation="fade_from_bottom">With over eight years of
+                                software engineering experience in
+                                the service and finance industries, I've honed my ability to deliver robust,
+                                client-focused solutions.
+                                In the past two years, I’ve been zeroing in on Gen AI, merging cutting-edge technology
+                                with solid engineering
+                                principles to create intelligent systems that not only solve problems but also
+                                anticipate future needs.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Resume Section -->
+                <section class="resume-area page-section scroll-to-page" id="resume">
+                    <div class="custom-container">
+                        <div class="resume-content content-width">
+                            <div class="section-header">
+                                <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-briefcase"></i> Resume
+                                </h4>
+                                <h1 class="scroll-animation" data-animation="fade_from_bottom">Education &
+                                    <span>Experience</span>
+                                </h1>
+                            </div>
+
+                            <div class="resume-timeline">
+                                <div class="item scroll-animation" data-animation="fade_from_right">
+                                    <span class="date">ADP, LLC | February 2018 – Present</span>
+                                    <h2>Lead Software Engineer</h2>
+                                    <p>Roseland, NJ</p>
+                                    <ol>
+                                        <li>Led modernization efforts by replacing a legacy console-based application
+                                            with a React-based single-page application.</li>
+                                        <li>Designed and implemented a Gen AI-powered system for call summarization and
+                                            predictive analytics in ADP's Service Org.</li>
+                                        <li>Integrated Salesforce solutions with AI-driven automation to enhance service
+                                            efficiency.</li>
+                                        <li>Developed and deployed ChatGPT-based APIs for intelligent responses and
+                                            customer support automation.</li>
+                                        <li>Architected and deployed payroll-based features using reusable Web
+                                            Components for ADP projects.</li>
+                                        <li>Developed micro front-end solutions to enhance manageability and reusability
+                                            of monolithic front-end applications.</li>
+                                        <li>Designed and implemented a GraphQL-based backend, migrating from legacy
+                                            Java, Python, and JavaScript microservices.</li>
+                                        <li>Established a CI/CD model with PowerShell and Python, streamlining the
+                                            deployment process.</li>
+                                        <li>Implemented Azure Authentication while migrating from SiteMinder.</li>
+                                    </ol>
+                                </div>
+
+                                <div class="item scroll-animation" data-animation="fade_from_right">
+                                    <span class="date">KalTech Consulting Inc | October 2017 – February 2018</span>
+                                    <h2>MEAN Stack Developer</h2>
+                                    <p>Client: Prudential Financial, Roseland, NJ</p>
+                                    <ol>
+                                        <li>Migrated a legacy C#-based Windows application into a responsive single-page
+                                            web application using Angular 4.0.</li>
+                                        <li>Developed and optimized new APIs with Express.js, converting them into
+                                            microservices for improved performance.</li>
+                                        <li>Implemented SSO authentication for internal users using SiteMinder.</li>
+                                        <li>Managed API debugging and logging with Splunk.</li>
+                                    </ol>
+                                </div>
+
+                                <div class="item scroll-animation" data-animation="fade_from_right">
+                                    <span class="date">Silicon Tech Solution | February 2017 – September 2017</span>
+                                    <h2>Development Intern</h2>
+                                    <p>Fremont, CA</p>
+                                    <ol>
+                                        <li>Developed RESTful microservices in C# with OOPS principles to efficiently
+                                            deliver filtered data to UI.</li>
+                                        <li>Created a highly responsive UI using Angular 1.6, following Google Material
+                                            Design guidelines.</li>
+                                        <li>Implemented automated testing using Jasmine, Selenium, and other frameworks.
+                                        </li>
+                                        <li>Optimized database performance using MongoDB.</li>
+                                    </ol>
+                                </div>
+
+                                <div class="item scroll-animation" data-animation="fade_from_right">
+                                    <span class="date">MentorPower Software | June 2014 – August 2015</span>
+                                    <h2>Web Developer</h2>
+                                    <p>Ahmedabad, Gujarat, India</p>
+                                    <ol>
+                                        <li>Redesigned a legacy .NET Windows application into a modern web-based
+                                            solution using JavaScript, HTML, CSS, and jQuery.</li>
+                                        <li>Implemented Selenium and Jasmine for automated testing.</li>
+                                        <li>Contributed to CI/CD pipelines using Jenkins for deployment.</li>
+                                    </ol>
+                                </div>
+
+                                <div class="item scroll-animation" data-animation="fade_from_right">
+                                    <span class="date">Campbellsville University | January 2018 – August 2019</span>
+                                    <h2>Master’s Degree in Information Technology Management</h2>
+                                </div>
+
+                                <div class="item scroll-animation" data-animation="fade_from_right">
+                                    <span class="date">Northwestern Polytechnic University | September 2015 – December
+                                        2016</span>
+                                    <h2>Master’s Degree in Computer Science</h2>
+                                </div>
+
+                                <div class="item scroll-animation" data-animation="fade_from_right">
+                                    <span class="date">Ganpat University | January 2011 – May 2014</span>
+                                    <h2>Bachelor’s Degree in Information Technology</h2>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Specializations Section -->
+                <section class="services-area page-section scroll-to-page" id="services">
+                    <div class="custom-container">
+                        <div class="services-content content-width">
+                            <div class="section-header">
+                                <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-stream"></i> Specializations
+                                </h4>
+                                <h1 class="scroll-animation" data-animation="fade_from_bottom">My
+                                    <span>Specializations</span>
+                                </h1>
+                            </div>
+
+                            <div class="services-items">
+
+                                <div class="service-item scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-code"></i>
+                                    <h2>AI-Powered Full-Stack Development</h2>
+                                    <p>Building scalable, high-performance applications with **React, Next.js, Node.js,
+                                        GraphQL, and microservices**, integrating AI-driven automation for smarter,
+                                        faster solutions.</p>
+                                    <span class="projects">30+ Deployments</span>
+                                </div>
+
+                                <div class="service-item scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-robot"></i>
+                                    <h2>Generative AI & LLM Integrations</h2>
+                                    <p>Developing and fine-tuning **LLM-powered applications** using **OpenAI,
+                                        LangChain, and vector databases**, with AI-driven chatbots, call summarization,
+                                        and predictive analytics.</p>
+                                    <span class="projects">20+ AI Use Case Implementations</span>
+                                </div>
+
+                                <div class="service-item scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-cloud"></i>
+                                    <h2>Cloud & DevOps Engineering</h2>
+                                    <p>Designing cloud-native, containerized solutions on **AWS, Azure, and GCP**, with
+                                        **Kubernetes, Terraform, CI/CD automation, and scalable microservices
+                                        architectures.**</p>
+                                    <span class="projects">25+ Cloud Deployments</span>
+                                </div>
+
+                                <div class="service-item scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-database"></i>
+                                    <h2>Data Engineering & API Development</h2>
+                                    <p>Building high-performance **GraphQL & REST APIs** with real-time data processing,
+                                        event-driven architecture, and **big data solutions using Kafka, Redis, and
+                                        MongoDB.**</p>
+                                    <span class="projects">40+ API Solutions</span>
+                                </div>
+
+                                <div class="service-item scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-briefcase"></i>
+                                    <h2>Salesforce & Enterprise AI Solutions</h2>
+                                    <p>Enhancing **Salesforce automation** with **AI-powered insights, intelligent
+                                        automation, and workflow optimizations** to drive business efficiency.</p>
+                                    <span class="projects">5+ Enterprise Solutions</span>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+
+
+                <!-- Skills Section -->
+                <section class="skills-area page-section scroll-to-page" id="skills">
+                    <div class="custom-container">
+                        <div class="skills-content content-width">
+                            <div class="section-header">
+                                <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-shapes"></i> My Skills
+                                </h4>
+                                <h1 class="scroll-animation" data-animation="fade_from_bottom">My
+                                    <span>Advantages</span>
+                                </h1>
+                            </div>
+
+                            <div class="row skills text-center">
+
+                                <div class="col-md-3 scroll-animation" data-animation="fade_from_left">
+                                    <div class="skill">
+                                        <div class="skill-inner">
+                                            <img src="./assets/images/react.png" alt="React">
+                                            <h1 class="percent">95%</h1>
+                                        </div>
+                                        <p class="name">React & Next.js</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-3 scroll-animation" data-animation="fade_from_bottom">
+                                    <div class="skill">
+                                        <div class="skill-inner">
+                                            <img src="./assets/images/nodejs.png" alt="Node.js">
+                                            <h1 class="percent">92%</h1>
+                                        </div>
+                                        <p class="name">Node.js & Express.js</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-3 scroll-animation" data-animation="fade_from_top">
+                                    <div class="skill">
+                                        <div class="skill-inner">
+                                            <img src="./assets/images/graphql.png" alt="GraphQL">
+                                            <h1 class="percent">90%</h1>
+                                        </div>
+                                        <p class="name">GraphQL & API Development</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-3 scroll-animation" data-animation="fade_from_right">
+                                    <div class="skill">
+                                        <div class="skill-inner">
+                                            <img src="./assets/images/ai.png" alt="Gen AI">
+                                            <h1 class="percent">88%</h1>
+                                        </div>
+                                        <p class="name">Generative AI & LLMs</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-3 scroll-animation" data-animation="fade_from_left">
+                                    <div class="skill">
+                                        <div class="skill-inner">
+                                            <img src="./assets/images/salesforce.png" alt="Salesforce">
+                                            <h1 class="percent">85%</h1>
+                                        </div>
+                                        <p class="name">Salesforce & Apex</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-3 scroll-animation" data-animation="fade_from_bottom">
+                                    <div class="skill">
+                                        <div class="skill-inner">
+                                            <img src="./assets/images/cicd.png" alt="CI/CD">
+                                            <h1 class="percent">87%</h1>
+                                        </div>
+                                        <p class="name">CI/CD & DevOps</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-3 scroll-animation" data-animation="fade_from_top">
+                                    <div class="skill">
+                                        <div class="skill-inner">
+                                            <img src="./assets/images/kub.png" alt="Kubernetes">
+                                            <h1 class="percent">82%</h1>
+                                        </div>
+                                        <p class="name">Kubernetes & Cloud Infrastructure</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-3 scroll-animation" data-animation="fade_from_right">
+                                    <div class="skill">
+                                        <div class="skill-inner">
+                                            <img src="./assets/images/mongo.png" alt="MongoDB">
+                                            <h1 class="percent">90%</h1>
+                                        </div>
+                                        <p class="name">MongoDB & Database Optimization</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-3 scroll-animation" data-animation="fade_from_left">
+                                    <div class="skill">
+                                        <div class="skill-inner">
+                                            <img src="./assets/images/python.png" alt="Python">
+                                            <h1 class="percent">85%</h1>
+                                        </div>
+                                        <p class="name">Python & Automation</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-3 scroll-animation" data-animation="fade_from_bottom">
+                                    <div class="skill">
+                                        <div class="skill-inner">
+                                            <img src="./assets/images/azure.png" alt="Azure">
+                                            <h1 class="percent">80%</h1>
+                                        </div>
+                                        <p class="name">Azure & Cloud Services</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-3 scroll-animation" data-animation="fade_from_bottom">
+                                    <div class="skill">
+                                        <div class="skill-inner">
+                                            <img src="./assets/images/aws.png" alt="Azure">
+                                            <h1 class="percent">80%</h1>
+                                        </div>
+                                        <p class="name">AWS & Cloud Services</p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+                <!-- Testimonial Section -->
+                <section class="testimonial-area page-section scroll-to-page" id="testimonial">
+                    <div class="custom-container">
+                        <div class="testimonial-content content-width">
+                            <div class="section-header">
+                                <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="lar la-comment"></i> testimonial
+                                </h4>
+                                <h1 class="scroll-animation" data-animation="fade_from_bottom">What Professionals Say
+                                    <span>About Me
+                                        on LinkedIn</span></h1>
+                            </div>
+
+                            <div class="testimonial-slider-wrap scroll-animation" data-animation="fade_from_bottom">
+                                <div class="owl-carousel testimonial-slider owl-theme">
+                                    <div class="testimonial-item">
+                                        <div class="testimonial-item-inner">
+                                            <div class="author d-flex align-items-center">
+                                                <img src="./assets/images/userm.png" alt="portfolio">
+                                                <div class="right">
+                                                    <h3>Eric Zorn</h3>
+                                                    <p class="designation">Senior Software Engineer at
+                                                        <span>GoodRx</span></p>
+                                                </div>
+                                            </div>
+                                            <p>Akshat is a hard worker and great Software Engineer. We had worked
+                                                together on a
+                                                large scale software application at ADP together as part of a very large
+                                                team.
+                                                Akshat is highly skilled with Front End skills and libraries like React
+                                                JS, as
+                                                well as Back End with Node JS and GraphQL. He always was someone who
+                                                enjoyed
+                                                answering questions or providing technical insight into all aspects of
+                                                the project.
+                                                I would highly recommend working with him! ”</p>
+                                            <span>Worked together at ADP LLC</span>
+                                        </div>
+                                    </div>
+                                    <div class="testimonial-item">
+                                        <div class="testimonial-item-inner">
+                                            <div class="author d-flex align-items-center">
+                                                <img src="./assets/images/userf.png" alt="portfolio">
+                                                <div class="right">
+                                                    <h3>Swetha Vemula</h3>
+                                                    <p class="designation"><span>Technology Enthusiast</span></p>
+                                                </div>
+                                            </div>
+                                            <p>Akshat is a very conscientious and dedicated to his work. He took the
+                                                time and effort to spearhead initiatives to maintain and improve various
+                                                UI standards. Maybe that’s why he is the so called “css guru” of our
+                                                team here at ADP. He has a positive attitude and a desire to produce
+                                                quality work with a new perspective.”</p>
+                                            <span>Worked together at ADP LLC</span>
+                                        </div>
+                                    </div>
+                                    <div class="testimonial-item">
+                                        <div class="testimonial-item-inner">
+                                            <div class="author d-flex align-items-center">
+                                                <img src="./assets/images/userf.png" alt="portfolio">
+                                                <div class="right">
+                                                    <h3>Kathy Puk</h3>
+                                                    <p class="designation">Director of Product Management at<span>Worked
+                                                            together at ADP LLC</span></p>
+                                                </div>
+                                            </div>
+                                            <p>As a Product Manager responsible for an integral piece of our new
+                                                corporate strategy, I have had the pleasure of working with Akshat Shah
+                                                for nearly a year. He is a very talented JavaScript Full Stack
+                                                Developer, but he brings far more to the team. Because he was quick to
+                                                recognize our mission, Akshat is playing a key role in the success of
+                                                our solution. His dogged commitment to excellence, and his ability to
+                                                access a problem holistically, is invaluable. I frequently seek his
+                                                counsel to determine when a proposed solution is technically feasible.
+                                                On a lighter note, Akshat is a joy to work with: his cheerful demeanor
+                                                often lends a bright note to an otherwise grueling day.”</p>
+                                            <span>Worked together at ADP LLC</span>
+                                        </div>
+                                    </div>
+                                    <div class="testimonial-item">
+                                        <div class="testimonial-item-inner">
+                                            <div class="author d-flex align-items-center">
+                                                <img src="./assets/images/userf.png" alt="portfolio">
+                                                <div class="right">
+                                                    <h3>Vandana Mehrotra</h3>
+                                                    <p class="designation">Lead QA Engineer at<span>Worked together at
+                                                            ADP LLC</span></p>
+                                                </div>
+                                            </div>
+                                            <p>I have closely worked with Akshat for the past 10 months. He consistently
+                                                delivers quality work, meets deadlines, and goes out of his way to
+                                                assist his co-workers. He is extremely driven and committed to his work.
+                                                Akshat’s personality is also a big asset as his high energy personality
+                                                and his go getter attitude is contagious. He has a deep understanding of
+                                                modern IT technologies and an expansive technical background. It has
+                                                been a pleasure working with him and I would highly recommend him.”</p>
+                                            <span>Worked together at ADP LLC</span>
+                                        </div>
+                                    </div>
+                                    <div class="testimonial-item">
+                                        <div class="testimonial-item-inner">
+                                            <div class="author d-flex align-items-center">
+                                                <img src="./assets/images/userm.png" alt="portfolio">
+                                                <div class="right">
+                                                    <h3>Shawn Murphy</h3>
+                                                    <p class="designation">Sr. Lead UX Designer<span>ADP LLC</span></p>
+                                                </div>
+                                            </div>
+                                            <p>Akshat is a detail oriented developer and a fantastic partner to work
+                                                with. He pays attention to the details and has a desire to develop the
+                                                best experience for users. I worked closely with Akshat on several
+                                                features at ADP and he was extremely level headed, focused and didn't
+                                                stop until the feature looked like what was designed by me and the UX
+                                                team. He's a fantastic addition to any team.”</p>
+                                            <span>Worked together at ADP LLC</span>
+                                        </div>
+                                    </div>
+                                    <div class="testimonial-item">
+                                        <div class="testimonial-item-inner">
+                                            <div class="author d-flex align-items-center">
+                                                <img src="./assets/images/userm.png" alt="portfolio">
+                                                <div class="right">
+                                                    <h3>Anoo Murali</h3>
+                                                    <p class="designation">Senior Product Manager at <span>Dun &
+                                                            Bradstreet</span></p>
+                                                </div>
+                                            </div>
+                                            <p>In the past few years that I worked with Akshat, he has been a diligent
+                                                and responsible teammate who regularly goes beyond his role description
+                                                to get the job done. He has continuously provided invaluable support to
+                                                the team. His go-getter attitude and attention to detail makes him a
+                                                welcome addition to any team. I can thoroughly recommend Akshat.”</p>
+                                            <span>Worked together at ADP LLC</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonial-footer-nav">
+                                    <div class="testimonial-nav d-flex align-items-center">
+                                        <button class="prev"><i class="las la-angle-left"></i></button>
+                                        <div id="testimonial-slide-count"></div>
+                                        <button class="next"><i class="las la-angle-right"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Contact Section -->
+                <section class="contact-area page-section scroll-content" id="contact">
+                    <div class="custom-container">
+                        <div class="contact-content content-width">
+                            <div class="section-header">
+                                <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-envelope"></i>Contact
+                                </h4>
+                                <h1 class="scroll-animation" data-animation="fade_from_bottom">Let's Work
+                                    <span>Together!</span>
+                                </h1>
+                            </div>
+                            <h3 class="scroll-animation" data-animation="fade_from_bottom">axat17@gmail.com</h3>
+                            <p id="required-msg">* Marked fields are required to fill.</p>
+
+                            <form class="contact-form scroll-animation" data-animation="fade_from_bottom" method="POST"
+                                action="mailer.php">
+                                <div class="alert alert-success messenger-box-contact__msg" style="display: none"
+                                    role="alert">
+                                    Your message was sent successfully.
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="input-group">
+                                            <label for="full-name">full Name <sup>*</sup></label>
+                                            <input type="text" name="full-name" id="full-name"
+                                                placeholder="Your Full Name">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="input-group">
+                                            <label for="email">Email <sup>*</sup></label>
+                                            <input type="email" name="email" id="email" placeholder="Your email adress">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="input-group">
+                                            <label for="phone-number">phone <span>(optional)</span></label>
+                                            <input type="text" name="phone-number" id="phone-number"
+                                                placeholder="Your number phone">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="input-group">
+                                            <label for="message">message</label>
+                                            <textarea name="message" id="message"
+                                                placeholder="Wrire your message here ..."></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="input-group submit-btn-wrap">
+                                            <button class="theme-btn" name="submit" type="submit" id="submit-form">send
+                                                message</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+                </section>
             </div>
         </div>
-    </div>
-    <!--Testimonials-->
+    </main>
 
-    <!--Blog-->
-    <!--  <section id="blog" class="container section">-->
-    <!--    <div class="row">-->
-    <!--      <div class="col-md-12">-->
-    <!--        <h2 id="blog_header" class="section__title">Latest Posts_</h2>-->
-    <!--      </div>-->
-    <!--    </div>-->
 
-    <!--    <div class="row post-cards">-->
-    <!--      <div class="col-md-4">-->
-    <!--        <a href="blog.html">-->
-    <!--          <div class="post-cards__card">-->
-    <!--            <div class="post-cards__img">-->
-    <!--              <img src="assets/img/img_blog_1.png" alt="blog_img">-->
-    <!--            </div>-->
-    <!--            <div class="post-cards__info">-->
-    <!--              <p class="post-cards__date">October 22, 2017</p>-->
-    <!--              <h3 class="post-cards_title">How to use css-preprocessor</h3>-->
-    <!--              <p class="post-cards_description">Lorem ipsum dolor sit amet, consectetur-->
-    <!--                adipisicing elit, sed do eiusmod tempr incididunt...-->
-    <!--              </p>-->
-    <!--            </div>-->
-    <!--          </div>-->
-    <!--        </a>-->
-    <!--      </div>-->
-    <!--      <div class="col-md-4">-->
-    <!--        <a href="blog.html">-->
-    <!--          <div class="post-cards__card">-->
-    <!--            <div class="post-cards__img">-->
-    <!--              <img src="assets/img/img_blog_2.png" alt="blog_img">-->
-    <!--            </div>-->
-    <!--            <div class="post-cards__info">-->
-    <!--              <p class="post-cards__date">October 22, 2017</p>-->
-    <!--              <h3 class="post-cards_title">How I organize my work with code</h3>-->
-    <!--              <p class="post-cards_description">Lorem ipsum dolor sit amet, consectetur-->
-    <!--                adipisicing elit, sed do eiusmod tempr incididu...-->
-    <!--              </p>-->
-    <!--            </div>-->
-    <!--          </div>-->
-    <!--        </a>-->
-    <!--      </div>-->
-    <!--      <div class="col-md-4">-->
-    <!--        <a href="blog.html">-->
-    <!--          <div class="post-cards__card">-->
-    <!--            <div class="post-cards__img">-->
-    <!--              <img src="assets/img/img_blog_3.png" alt="blog_img">-->
-    <!--            </div>-->
-    <!--            <div class="post-cards__info">-->
-    <!--              <p class="post-cards__date">October 22, 2017</p>-->
-    <!--              <h3 class="post-cards_title">SVG sprites vs Icon Font</h3>-->
-    <!--              <p class="post-cards_description">Lorem ipsum dolor sit amet, consectetur-->
-    <!--                adipisicing elit, sed do eiusmod tempr incididu...-->
-    <!--              </p>-->
-    <!--            </div>-->
-    <!--          </div>-->
-    <!--        </a>-->
-    <!--      </div>-->
-    <!--    </div>-->
-    <!--  </section>-->
-    <!--Blog-->
+    <script src="./assets/js/jquery.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/owl.carousel.js"></script>
+    <script src="./assets/js/gsap.min.js"></script>
+    <script src="./assets/js/ScrollTrigger.min.js"></script>
+    <script src="./assets/js/ScrollToPlugin.min.js"></script>
+    <script src="./assets/js/lightbox.min.js"></script>
 
-    <!--Contact-->
-    <div class="background" style="background-image: url(assets/img/img_bg_main.jpg)">
-        <div class="container section" id="contact">
-            <div class="row">
-                <div class="col-md-12">
-                    <p class="section__title" id="contacts_header">Get in touch_</p>
-                </div>
-            </div>
-            <div class="row contacts">
-                <div class="col-md-5 col-lg-4">
-                    <div class="contacts__list">
-                        <dl class="contact-list">
-                            <dt>Phone:</dt>
-                            <dd><a href="tel:19088423844">+1 (908) 842-3844</a></dd>
-                            <dt>Email:</dt>
-                            <dd><a href="mailto:axat17@gmail.com">axat17@gmail.com</a></dd>
-                        </dl>
-                    </div>
-                    <div class="contacts__social">
-                        <ul>
-                            <li><a href="https://www.linkedin.com/in/axat17/">LinkedIn</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- <div class="col-md-7 col-lg-5">
-                <div class="contacts__form">
-                    <p class="contacts__form-title">Or just write me a letter here_</p>
-                    <form class="js-form">
-                        <div class="form-group">
-                            <input class="form-field js-field-name" placeholder="Your name" required type="text">
-                            <span class="form-validation"></span>
-                            <span class="form-invalid-icon"><i aria-hidden="true" class="mdi mdi-close"></i></span>
-                        </div>
-                        <div class="form-group">
-                            <input class="form-field js-field-email" placeholder="Your e-mail" required type="email">
-                            <span class="form-validation"></span>
-                            <span class="form-invalid-icon"><i aria-hidden="true" class="mdi mdi-close"></i></span>
-                        </div>
-                        <div class="form-group">
-                            <textarea class="form-field js-field-message" placeholder="Type the message here"
-                                      required></textarea>
-                            <span class="form-validation"></span>
-                            <span class="form-invalid-icon"><i aria-hidden="true" class="mdi mdi-close"></i></span>
-                        </div>
-                        <button class="site-btn site-btn--form" type="submit" value="Send">Send</button>
-                    </form>
-                </div>
-                <div class="footer">
-                    <p>© 2020 Akshat Shah. All Rights Reserved</p>
-                </div>
-            </div> -->
-            </div>
-        </div>
-    </div>
-    <!--Contact-->
-
-    <!-- Portfolio Modal -->
-    <div aria-hidden="true" class="modal fade portfolio-modal" id="portfolioModal" role="dialog" tabindex="-1">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button aria-label="Close" class="close" data-dismiss="modal" type="button">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body col-md-11 col-lg-9 ml-auto mr-auto">
-                    <p class="portfolio-modal__title">Mobile and desktop app for London hostel store</p>
-                    <img alt="modal_img" class="portfolio-modal__img" src="assets/img/img_project_1_mono.png">
-                    <p class="portfolio-modal__description">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                        utlabore
-                        et
-                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamcolaboris nisi ut
-                        aliquip ex
-                        ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                        dolore
-                        eu fugiat
-                        nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                        deserunt
-                        mollit
-                        anim id est laborum. Sed ut perspiciatis undeomnis iste natus error sit voluptatem accusantium
-                        doloremque
-                        laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto
-                        beatae vitae
-                        dicta sunt explicabo.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
-                        sed
-                        quia
-                        conse.
-                    </p>
-                    <div class="portfolio-modal__link">
-                        <a href="">www.superapp.com</a>
-                    </div>
-                    <div class="portfolio-modal__stack">
-                        <p class="portfolio-modal__stack-title">Using stack:</p>
-                        <ul class="tags">
-                            <li>html5</li>
-                            <li>css3</li>
-                            <li>JavaScript</li>
-                            <li>bower</li>
-                            <li>grunt</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Portfolio Modal -->
-
-    <script src="assets/js/jquery-2.2.4.min.js"></script>
-    <script src="assets/js/popper.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/menu.js"></script>
-    <script src="assets/js/jquery.waypoints.js"></script>
-    <script src="assets/js/progress-list.js"></script>
-    <script src="assets/js/section.js"></script>
-    <script src="assets/js/portfolio-filter.js"></script>
-    <script src="assets/js/slider-carousel.js"></script>
-    <script src="assets/js/mobile-menu.js"></script>
-    <script src="assets/js/contacts.js"></script>
-    <script src="assets/js/mbclicker.min.js"></script>
-    <script src="assets/js/site-btn.js"></script>
-    <script src="assets/js/style-switcher.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/ajax-form.js"></script>
 </body>
 
 </html>
