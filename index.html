@@ -30,6 +30,12 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl.carousel/2.3.4/owl.carousel.min.js"></script>
+
+
 </head>
 
 <body class="home1-page">
@@ -97,10 +103,12 @@
                 <p>Social</p>
                 <ul class="social-links d-flex align-items-center">
                     <li>
-                        <a href="https://www.linkedin.com/in/axat17/" target="_blank"><i class="lab la-linkedin"></i></a>
+                        <a href="https://www.linkedin.com/in/axat17/" target="_blank"><i
+                                class="lab la-linkedin"></i></a>
                     </li>
                     <li>
-                        <a href="https://www.instagram.com/thatoneperfectclick/#" target="_blank"><i class="lab la-instagram"></i></a>
+                        <a href="https://www.instagram.com/thatoneperfectclick/#" target="_blank"><i
+                                class="lab la-instagram"></i></a>
                     </li>
                 </ul>
             </div>
@@ -159,7 +167,8 @@
                 <a href="https://www.linkedin.com/in/axat17/" target="_blank"><i class="lab la-linkedin"></i></a>
             </li>
             <li>
-                <a href="https://www.instagram.com/thatoneperfectclick/#" target="_blank"><i class="lab la-instagram"></i></a>
+                <a href="https://www.instagram.com/thatoneperfectclick/#" target="_blank"><i
+                        class="lab la-instagram"></i></a>
             </li>
         </ul>
         <a href="assets/images/Akshat_Shah_Resume.pdf" target="_blank" class="theme-btn">
@@ -182,10 +191,12 @@
                     <p class="copyright">&copy; 2025 Akshat Shah. All Rights Reserved</p>
                     <ul class="social-profile d-flex align-items-center flex-wrap justify-content-center">
                         <li>
-                            <a href="https://www.linkedin.com/in/axat17/" target="_blank"><i class="lab la-linkedin"></i></a>
+                            <a href="https://www.linkedin.com/in/axat17/" target="_blank"><i
+                                    class="lab la-linkedin"></i></a>
                         </li>
                         <li>
-                            <a href="https://www.instagram.com/thatoneperfectclick/#" target="_blank"><i class="lab la-instagram"></i></a>
+                            <a href="https://www.instagram.com/thatoneperfectclick/#" target="_blank"><i
+                                    class="lab la-instagram"></i></a>
                         </li>
                     </ul>
                     <a href="assets/images/Akshat_Shah_Resume.pdf" target="_blank" class="theme-btn">
@@ -562,7 +573,8 @@
                                 </h4>
                                 <h1 class="scroll-animation" data-animation="fade_from_bottom">What Professionals Say
                                     <span>About Me
-                                        on LinkedIn</span></h1>
+                                        on LinkedIn</span>
+                                </h1>
                             </div>
 
                             <div class="testimonial-slider-wrap scroll-animation" data-animation="fade_from_bottom">
@@ -574,7 +586,8 @@
                                                 <div class="right">
                                                     <h3>Eric Zorn</h3>
                                                     <p class="designation">Senior Software Engineer at
-                                                        <span>GoodRx</span></p>
+                                                        <span>GoodRx</span>
+                                                    </p>
                                                 </div>
                                             </div>
                                             <p>Akshat is a hard worker and great Software Engineer. We had worked
@@ -713,50 +726,19 @@
                                     <span>Together!</span>
                                 </h1>
                             </div>
-                            <h3 class="scroll-animation" data-animation="fade_from_bottom">axat17@gmail.com</h3>
-                            <p id="required-msg">* Marked fields are required to fill.</p>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="input-group">
+                                        <label for="email">Email: <span>axat17@gmail.com</span></label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="input-group">
+                                        <label for="phone-number">phone <span>+1 (646) 494-3591</span></label>
+                                    </div>
+                                </div>
+                            </div>
 
-                            <form class="contact-form" method="POST" action="mail.php">
-                                <div class="alert alert-success messenger-box-contact__msg" style="display: none"
-                                    role="alert">
-                                    Your message was sent successfully.
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="input-group">
-                                            <label for="full-name">full Name <sup>*</sup></label>
-                                            <input type="text" name="full-name" id="full-name"
-                                                placeholder="Your Full Name">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="input-group">
-                                            <label for="email">Email <sup>*</sup></label>
-                                            <input type="email" name="email" id="email" placeholder="Your email adress">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="input-group">
-                                            <label for="phone-number">phone <span>(optional)</span></label>
-                                            <input type="text" name="phone-number" id="phone-number"
-                                                placeholder="Your number phone">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="input-group">
-                                            <label for="message">message</label>
-                                            <textarea name="message" id="message"
-                                                placeholder="Wrire your message here ..."></textarea>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="input-group submit-btn-wrap">
-                                            <button class="theme-btn" name="submit" type="submit" id="submit-form">send
-                                                message</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
 
                         </div>
                     </div>
